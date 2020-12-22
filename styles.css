@@ -1,0 +1,92 @@
+body {
+    font-family: arial,sans-serif;
+}
+ul {
+    font-size: small;
+    color: rgb(68, 65, 65);
+    display:flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.nav-left {
+    padding-top: 10px;
+}
+.nav-right {
+    padding-top: 10px;
+}
+.nav-apps {
+    display: inline-block;
+    background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+    background-position: -135px -39px;
+    vertical-align: middle;
+    background-size: 528px 62x;
+    height: 30px;
+    width: 30px;
+    opacity: .55;
+}
+li {
+    display: inline;
+    padding-right: 15px;
+}
+#sign-in{
+    color: white;
+    background-color: rgb(66, 133, 244);
+    text-align: center;
+    padding: 10px 15px 10px 15px;
+    border-radius: 3px;
+}
+li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+form {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+}
+input {
+    display:flex;
+    justify-content: center;
+    margin-inline: 5px;
+    margin-top: 30px;;
+    border-radius: 5px;
+    height: 35px;
+    width: 140px;
+    border:0ch;
+}
+input:hover{
+    border: 1px solid gray;
+}
+#logo {
+    display: block;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#searchbox{
+    width: 35%;
+    height: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid lightgrey;
+    border-radius: 50px;
+}
+#searchbox:hover {
+    box-shadow: 0 1px 6px rgba(32, 33, 36, .28);
+}
+footer {
+    background-color: lightgray;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-top: 1px solid darkgrey;
+    padding-right: 15px;
+}
+.center{
+    display:flex;
+    justify-content: center;
+    padding-right: 150px;
+}
